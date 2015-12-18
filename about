@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/png" href="notyet.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="connor_test.css">
+
+
+
+
+        <title>Name & Name</title>
+        <nav class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="connor_test">NAME & NAME</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="work">Work</a></li>
+                        <li><a href="production_catalogue">Production Catalogue</a></li>
+                        <li><a href="about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </head>
+
+      <body>
+
+
+        <div class="container">
+            <div class="col-md-6 about">
+
+            <img src="http://images4.fanpop.com/image/photos/15500000/Posing-for-portraits-during-the-2010-TIFF-in-Guess-Portrait-Studio-at-Regency-Hotel-natalie-portman-15557287-2560-1920.jpg"></img>
+            <h3>This is a test portrait</h3>
+            <p>I have been testing this website for many years. My experience in the industry is x, y, and z.</p>
+
+            </div>
+
+            <div class="col-md-6 about">
+
+            <img  src="http://images4.fanpop.com/image/photos/15500000/Posing-for-portraits-during-the-2010-TIFF-in-Guess-Portrait-Studio-at-Regency-Hotel-natalie-portman-15557287-2560-1920.jpg"></img>
+            <h3>This is a test portrait</h3>
+            <p>I have been testing this website for many years. My experience in the industry is x, y, and z.</p>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <p class="copyright">Copyright 2015</p>
+                <p class="address">1001 Ave Brooklyn, New York</p>
+            </div>
+        </div>
+    </body>
+
+</html>
