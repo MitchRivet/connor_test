@@ -206,7 +206,7 @@ blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p 
     height: 250px;
     background: url(http://cdn.playbuzz.com/cdn/c2d9ade0-ebe1-4a2e-8bde-6acfe190d741/8e6e022a-02df-4b44-8ea9-e3b26940bb89.png);
     background-size: cover;
-    margin-bottom: 25px;
+    margin: 0 auto 25px;
 }
 
 
@@ -236,8 +236,4 @@ background: rgba(0, 0, 0, .75);
     font-weight: 200;
   color: rgba(255, 255, 255, .85);
   font-size: 18px;
-}
-
-#ad_hover {
-    
 }
