@@ -44,9 +44,11 @@
       <body id="home">
 
 
-        <div class="container">
-            <h1>Music Production</h1>
+        <div class="container gang">
+            <button type="button" class="btn btn-primary-outline btn-lg">GANG</button>
         </div>
+
+        <div class="gang_video"><iframe src="https://player.vimeo.com/video/121159129?color=000203&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
         <div class="footer">
             <div class="container">
@@ -55,5 +57,12 @@
             </div>
         </div>
     </body>
-
+<script>
+$(document).ready(function(){
+    $('.gang_video').hide();
+$("button").click(function(){
+    $('.gang_video').show(1000);
+});
+});
+</script>
 </html>

@@ -99,9 +99,11 @@ body {
     height: 282px;
 
 }
-#home h1 {
+.gang button {
     position: relative;
     top: 310px;
+    background-color: transparent;
+    border-color: white;
 }
 .footer {
   position: absolute;
@@ -193,6 +195,8 @@ blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p 
 
 .about {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 .about img {
     width: auto;
@@ -209,6 +213,13 @@ blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p 
     margin: 0 auto 25px;
 }
 
+#feature_album {
+    width: 250px;
+    height: 250px;
+    background-image: url(assets/img/cover_night_school.jpg);
+    background-size: cover;
+    margin: 0 auto 25px;
+}
 
 #overlay {
 background: rgba(0, 0, 0, .75);
@@ -221,9 +232,24 @@ background: rgba(0, 0, 0, .75);
  height: 250px;
  }
 
+ /*#feature_overlay {
+ background: rgba(0, 0, 0, .75);
+  text-align: center;
+  padding: 45px 0 66px 0;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+  width: auto;
+  height: auto;
+  }*/
+
  #test_image:hover #overlay {
      opacity: 1;
  }
+
+#feature_album:hover #overlay {
+    opacity: 1;
+}
 
 #work_text_title {
     font-family: DIN;
