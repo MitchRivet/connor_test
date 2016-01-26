@@ -99,17 +99,12 @@ body {
     height: 282px;
 
 }
-<<<<<<< HEAD
-#home h1 {
-    position: relative;
-    top: 310px;
-=======
+
 .gang button {
     position: relative;
     top: 310px;
     background-color: transparent;
     border-color: white;
->>>>>>> master
 }
 .footer {
   position: absolute;
@@ -201,11 +196,9 @@ blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p 
 
 .about {
     text-align: center;
-<<<<<<< HEAD
-=======
     margin-top: 50px;
     margin-bottom: 25px;
->>>>>>> master
+
 }
 .about img {
     width: auto;
@@ -222,8 +215,6 @@ blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p 
     margin: 0 auto 25px;
 }
 
-<<<<<<< HEAD
-=======
 #feature_album {
     width: 250px;
     height: 250px;
@@ -231,7 +222,7 @@ blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p 
     background-size: cover;
     margin: 0 auto 25px;
 }
->>>>>>> master
+
 
 #overlay {
 background: rgba(0, 0, 0, .75);
@@ -244,31 +235,16 @@ background: rgba(0, 0, 0, .75);
  height: 250px;
  }
 
-<<<<<<< HEAD
-=======
- /*#feature_overlay {
- background: rgba(0, 0, 0, .75);
-  text-align: center;
-  padding: 45px 0 66px 0;
-  opacity: 0;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
-  width: auto;
-  height: auto;
-  }*/
-
->>>>>>> master
  #test_image:hover #overlay {
      opacity: 1;
  }
 
-<<<<<<< HEAD
-=======
+
 #feature_album:hover #overlay {
     opacity: 1;
 }
 
->>>>>>> master
+
 #work_text_title {
     font-family: DIN;
   color: rgba(255, 255, 255, .85);
